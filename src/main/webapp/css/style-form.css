@@ -1,0 +1,21 @@
+.user-form{
+    margin: auto;
+    width: 75%;
+    /*border: 1px solid #000;*/
+}
+
+table, tr, th, td{
+    border: 0px;
+}
+
+td{
+    width: 50%;
+}
+
+input{
+    width: 100%;
+}
+
+#form-table{
+    border: 0;
+}

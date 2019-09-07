@@ -19,10 +19,54 @@
     </div>
 </div>
 
-<div class="form">
-    
-</div>
+<div class="user-form">
+    <h2>Formularz:</h2>
 
+    <form>
+        <table id="form-table">
+            <tr>
+                <td>
+                    <label for="id-element">Identyfikator:</label>
+                </td>
+                <td>
+                    <input autofocus="autofocus" id="id-element" placeholder="1" type="number" min="0" max="999" step="1">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id-imie">Imie:</label></td>
+                <td>
+                    <input id="id-imie" type="text" placeholder="Wpisz swoje imie...">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id-nazwisko">Nazwisko:</label></td>
+                <td>
+                    <input id="id-nazwisko" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Data urodzenia:</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Adres:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Opis:</td>
+                <td>
+                    <textarea rows="4" cols="50" type="text">
+                        Opis tutaj:
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
 
 
 </body>
