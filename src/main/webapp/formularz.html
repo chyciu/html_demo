@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style-form.css">
     <title>Formularz</title>
 </head>
+
 <body>
 <div class="navigator">
     <div class="nav-sec">
@@ -16,6 +17,9 @@
     </div>
     <div class="nav-sec">
         <a href="formularz.html">Formularz</a>
+    </div>
+    <div class="nav-sec">
+        <a href="pets.html">Pets</a>
     </div>
 </div>
 
@@ -28,39 +32,41 @@
                 <td>
                     <label for="id-element">Identyfikator:</label>
                 </td>
-                <td>
+                <td width=300>
                     <input autofocus="autofocus" id="id-element" placeholder="1" type="number" min="0" max="999" step="1">
                 </td>
             </tr>
             <tr>
-                <td><label for="id-imie">Imie:</label></td>
                 <td>
+                    <label for="id-imie">Imie:</label>
+                </td>
+                <td width=300>
                     <input id="id-imie" type="text" placeholder="Wpisz swoje imie...">
                 </td>
             </tr>
             <tr>
                 <td><label for="id-nazwisko">Nazwisko:</label></td>
                 <td>
-                    <input id="id-nazwisko" type="text">
+                    <input id="id-nazwisko" type="text" placeholder="Wpisz swoje nazwisko...">
                 </td>
             </tr>
             <tr>
-                <td>Data urodzenia:</td>
+                <td><label for="id-data">Data urodzenia:</label></td>
                 <td>
-                    <input type="date">
+                    <input id="id-data" type="date" placeholder="Wpisz swoją datę urodzenia...">
                 </td>
             </tr>
             <tr>
-                <td>Adres:</td>
+                <td><label for="id-adres">Adres:</label></td>
                 <td>
-                    <input type="text">
+                    <input id="id-adres" type="text" placeholder="Wpisz swój adres...">
                 </td>
             </tr>
             <tr>
-                <td>Opis:</td>
+                <td><label for="id-opis">Opis:</label></td>
+
                 <td>
-                    <textarea rows="4" cols="50" type="text">
-                        Opis tutaj:
+                    <textarea rows="4" cols="55" input id="id-opis" type="text" placeholder="Opis tytaj...">
                     </textarea>
                 </td>
             </tr>
